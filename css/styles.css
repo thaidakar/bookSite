@@ -138,6 +138,33 @@
         background-color: #d5a47e;
     }
     
+    .result {
+        margin-top: 30px;
+        padding: 30px;
+    }
+    
+    .searchBar {
+        border-bottom: 2px solid black;
+        padding-bottom: 30px;
+    }
+    
+    .listResult {
+        padding-top: 20px;
+    }
+    
+    .review_link {
+        color: #000000;
+    }
+    
+    .review_link:hover {
+        text-decoration: none;
+        color: #510d0d;
+    }
+    
+    .searchButton {
+        background-color: #e2bfa4;
+    }
+    
     @media only screen and (min-width: 1024px) {
         .welcome-sign {
             margin: 20px;
