@@ -33,7 +33,7 @@ function onClick(e) {
                 return response.json();
             }).then(function(json) {
                 debugger
-                let output = '<div class="container no-gutters result content-background">';
+                let output = '<div class="container result content-background">';
                 if (json.num_results === 0) {
                     output += '<h2 style="text-align: center">No results found</h2>';
                 } else {
